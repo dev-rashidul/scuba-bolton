@@ -1,0 +1,98 @@
+/* Responsive CSS */
+
+/* Min Width 1200px and Max Width 1399px */
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .hero-wrapper {
+    padding: 100px 0 250px;
+  }
+}
+
+/* Min Width 992px and Max Width 1199px */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .hero-wrapper {
+    padding: 100px 0 250px;
+  }
+
+  .hero-content h2,
+  .why-top h2,
+  .services-top h2 {
+    font-size: 64px;
+  }
+
+  .services-card {
+    padding: 0 15px;
+  }
+}
+
+/* Min Width 768px and Max Width 991px */
+@media (min-width: 768px) and (max-width: 991px) {
+  .hero-wrapper {
+    padding: 100px 0 250px;
+  }
+
+  .hero-img {
+    display: none;
+  }
+
+  .hero-content h2,
+  .why-top h2,
+  .services-top h2 {
+    font-size: 48px;
+  }
+
+  .why-cards,
+  .services-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 30px;
+  }
+
+  .why-card h3,
+  .services-card h3 {
+    font-size: 30px;
+  }
+
+  .services-card {
+    padding: 0 15px;
+  }
+}
+
+/* Min Width 300px and Max Width 767px */
+@media (min-width: 300px) and (max-width: 767px) {
+  .hero-wrapper {
+    padding: 100px 0 200px;
+  }
+
+  .hero-img {
+    display: none;
+  }
+
+  .hero-content h2,
+  .why-top h2,
+  .services-top h2 {
+    font-size: 36px;
+  }
+
+  .why-cards,
+  .services-cards,
+  .footer-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 30px;
+  }
+
+  .why-card h3,
+  .services-card h3,
+  .footer-nav h3,
+  .payment h3 {
+    font-size: 24px;
+  }
+
+  .services-card {
+    padding: 0 15px;
+  }
+
+  .services-wrapper {
+    background-position: center;
+  }
+}
