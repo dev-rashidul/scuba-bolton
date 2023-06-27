@@ -2,14 +2,16 @@
 
 /* Min Width 1200px and Max Width 1399px */
 @media (min-width: 1200px) and (max-width: 1399px) {
-  .hero-wrapper {
+  .hero-wrapper,
+  .courses-hero-wrapper {
     padding: 100px 0 250px;
   }
 }
 
 /* Min Width 992px and Max Width 1199px */
 @media (min-width: 992px) and (max-width: 1199px) {
-  .hero-wrapper {
+  .hero-wrapper,
+  .courses-hero-wrapper {
     padding: 100px 0 250px;
   }
 
@@ -22,11 +24,16 @@
   .services-card {
     padding: 0 15px;
   }
+
+  .courses-hero-content h2 {
+    font-size: 64px;
+  }
 }
 
 /* Min Width 768px and Max Width 991px */
 @media (min-width: 768px) and (max-width: 991px) {
-  .hero-wrapper {
+  .hero-wrapper,
+  .courses-hero-wrapper {
     padding: 100px 0 250px;
   }
 
@@ -48,18 +55,30 @@
   }
 
   .why-card h3,
-  .services-card h3 {
+  .services-card h3,
+  .courses-level-content h3,
+  .current-courses-top h3 {
     font-size: 30px;
   }
 
   .services-card {
     padding: 0 15px;
   }
+
+  .courses-hero-content h2 {
+    font-size: 48px;
+    line-height: 60px;
+  }
+
+  .courses-features-wrapper {
+    top: -200px;
+  }
 }
 
 /* Min Width 300px and Max Width 767px */
 @media (min-width: 300px) and (max-width: 767px) {
-  .hero-wrapper {
+  .hero-wrapper,
+  .courses-hero-wrapper {
     padding: 100px 0 200px;
   }
 
@@ -84,7 +103,9 @@
   .why-card h3,
   .services-card h3,
   .footer-nav h3,
-  .payment h3 {
+  .payment h3,
+  .courses-level-content h3,
+  .current-courses-top h3 {
     font-size: 24px;
   }
 
@@ -94,5 +115,62 @@
 
   .services-wrapper {
     background-position: center;
+  }
+
+  .login-form-wrapper {
+    padding: 20px 30px 50px;
+    border-radius: 25px 0px 0px 25px;
+  }
+
+  .login-title h3 {
+    font-size: 20px;
+  }
+
+  .google-btn a {
+    margin-bottom: 20px;
+  }
+
+  .login-btn-field input {
+    font-size: 18px;
+  }
+
+  .login-input-field ::placeholder {
+    font-size: 16px;
+  }
+
+  .courses-hero-content h2 {
+    font-size: 36px;
+    line-height: 50px;
+  }
+
+  .courses-hero-content p {
+    font-size: 16px;
+  }
+
+  .courses-features-wrapper {
+    position: relative;
+    top: -150px;
+  }
+
+  .current-courses-wrapper {
+    margin-top: -50px;
+  }
+
+  .course-card {
+    flex-direction: column;
+  }
+
+  .course-card-img {
+    max-width: 100%;
+  }
+
+  .course-card-img img {
+    max-width: 100%;
+    min-height: 300px;
+    max-height: 300px;
+  }
+
+  .course-card-content {
+    padding: 20px 30px 50px;
   }
 }
